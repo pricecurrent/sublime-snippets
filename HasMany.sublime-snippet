@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * define HasMany relationship
+ * @return Illuminate\Database\Eloquent\Relations\HasMany
+ */
+public function ${1:relatedTo}()
+{
+	return \$this->hasMany(${2:relatedTo}::class);
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hz</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
