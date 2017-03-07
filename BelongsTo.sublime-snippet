@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Define relationship for App\\${2:Model}
+ * @return Illuminate\Database\Eloquent\Relations\BelongsTo
+ */
+public function ${1:relation}()
+{
+	return \$this->belongsTo(${2:Model}::class);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>belongsTo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
